@@ -1,19 +1,41 @@
 // components
 import { Col, Container, Row } from "react-bootstrap";
+import SideBar from "./SideBar";
+
 // styles
-import "./styles.module.scss";
+import styles from "./styles.module.scss";
 
 const Header = () => {
     return (
-        <header>
+        <div className={styles.header}>
             <Container>
                 <Row>
-                    <Col className="text-center">Will</Col>
-                    <Col className="text-center">Will</Col>
+                    <Col
+                        xs={10}
+                        className={`${styles.name} d-flex ps-4`}
+                    >
+                        <div className="my-3">William Dourado</div>
+                    </Col>
+                    <Col xs={2} className="d-flex align-items-center">
+                        <SideBar />
+                    </Col>
+                    {/* <Col className="d-flex justify-content-evenly mb-2">
+                        <a href="#" className="btn">
+                            Home
+                        </a>
+                        <a href="#" className="btn">
+                            Skills
+                        </a>
+                        <a href="#" className="btn">
+                            Projetos
+                        </a>
+                        <a href="#" className="btn">
+                            Contato
+                        </a>
+                    </Col> */}
                 </Row>
-
             </Container>
-        </header>
+        </div>
     );
 };
 

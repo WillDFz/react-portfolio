@@ -1,0 +1,14 @@
+.linksContainer {
+    width: 95%;
+    margin: auto;
+    border-top: 1px solid #ffffff44;
+    border-bottom: 1px solid #ffffff44;
+
+    .linkWrapper {
+        a {
+            img {
+                width: 1.75rem;
+            }
+        }
+    }
+}
