@@ -11,7 +11,7 @@ import styles from "./styles.module.scss";
 
 const Skills = () => {
     return (
-        <section className={`${styles.skillsSection}`}>
+        <section id="Skills" className={`${styles.skillsSection}`}>
             <Container>
                 <Row>
                     <Col>

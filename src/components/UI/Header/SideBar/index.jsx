@@ -1,17 +1,19 @@
 import { React, useState } from "react";
 import Hamburger from "hamburger-react";
 
-import Avatar from "../../Avatar";
-import SocialLinks from "../../../SocialLinks";
-
 import styles from "./styles.module.scss";
 
 function SideBar() {
     const [isOpen, setIsopen] = useState(false);
 
+    const inline = {
+        position: "absolute",
+        right: 0,
+    };
+
     return (
         <>
-            <div className="hamburger-container">
+            <div>
                 <Hamburger size={28} toggled={isOpen} toggle={setIsopen} />
             </div>
 
@@ -20,16 +22,23 @@ function SideBar() {
                     isOpen == true ? styles.sidebarActive : ""
                 }`}
             >
-                <div className={`${styles.modalBody}`}>
+                <div style={inline}>
+                    <Hamburger size={28} toggled={isOpen} toggle={setIsopen} />
+                </div>
+                <div className={`${styles.modalBody} pt-5`}>
                     <ul className="ps-0">
                         <li className="ps-3 py-2">
-                            <a className="">Habilidades</a>
+                            <a href="#Skills" className="btn">
+                                Habilidades
+                            </a>
                         </li>
                         <li className="ps-3 py-2">
-                            <a className="">Projetos</a>
+                            <a href="" className="btn">
+                                Projetos
+                            </a>
                         </li>
                         <li className="ps-3 py-2">
-                            <a className="">Contato</a>
+                            <a className="btn">Contato</a>
                         </li>
                     </ul>
                 </div>
