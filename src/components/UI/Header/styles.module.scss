@@ -1,14 +1,18 @@
 .header {
     background: #000;
     color: #fff;
+    overflow: hidden;
 
     a {
         color: #ffffffd4;
     }
 
-    .name {
+    .logo {
         div {
+            color: #860029;
             font-size: 1.5rem;
         }
     }
+
+
 }

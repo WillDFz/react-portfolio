@@ -1,22 +1,18 @@
 import { React, useState } from "react";
+import Hamburger from "hamburger-react";
 
 import Avatar from "../../Avatar";
-import SocialLinks from "../../SocialLinks";
+import SocialLinks from "../../../SocialLinks";
 
 import styles from "./styles.module.scss";
 
 function SideBar() {
     const [isOpen, setIsopen] = useState(false);
 
-    const ToggleSidebar = () => {
-        isOpen === true ? setIsopen(false) : setIsopen(true);
-        console.log(isOpen);
-    };
-
     return (
         <>
-            <div className={`${styles.menuBtn} btn`} onClick={ToggleSidebar}>
-                <img src="svg/bars.svg" alt="" />
+            <div className="hamburger-container">
+                <Hamburger size={28} toggled={isOpen} toggle={setIsopen} />
             </div>
 
             <div
@@ -24,16 +20,6 @@ function SideBar() {
                     isOpen == true ? styles.sidebarActive : ""
                 }`}
             >
-                <div className="py-4">
-                    <div
-                        className={`${styles.menuClose} btn`}
-                        onClick={ToggleSidebar}
-                    >
-                        <img src="svg/times.svg" alt="" />
-                    </div>
-                    <Avatar />
-                    <SocialLinks />
-                </div>
                 <div className={`${styles.modalBody}`}>
                     <ul className="ps-0">
                         <li className="ps-3 py-2">

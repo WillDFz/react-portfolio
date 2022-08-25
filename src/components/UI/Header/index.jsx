@@ -10,11 +10,8 @@ const Header = () => {
         <div className={styles.header}>
             <Container>
                 <Row>
-                    <Col
-                        xs={10}
-                        className={`${styles.name} d-flex ps-4`}
-                    >
-                        <div className="my-3">William Dourado</div>
+                    <Col xs={10} className={`${styles.logo} d-flex ps-4`}>
+                        <div className="my-3">【Ｗ】</div>
                     </Col>
                     <Col xs={2} className="d-flex align-items-center">
                         <SideBar />
