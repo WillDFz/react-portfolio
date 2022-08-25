@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../src/components/UI/Header";
+import Introduction from "../src/components/Sections/Introduction";
 
 // bootstrap css
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,6 +17,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Header />
+            <Introduction/>
         </>
     );
 }

@@ -4,9 +4,10 @@ import React from 'react'
 import styles from "./styles.module.scss";
 
 
-function Avatar() {
+const Avatar = (props) => {
+  console.log(props);
   return (
-    <div className={`${styles.avatarFrame} m-auto`}>
+    <div className={`${styles.avatarFrame} ${props} m-auto`}>
       <img src="/images/avatar.png" alt="" />
     </div>
   )

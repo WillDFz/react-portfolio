@@ -1,0 +1,29 @@
+.titleContainer {
+    color: #ffffffdf;
+}
+
+.introductionSection {
+    background: #000;
+
+    .introductionWrapper {
+        padding: 1rem;
+        border: 2px solid #de004e;
+        border-radius: 0.5rem;
+
+        h4,
+        p {
+            color: #ffffffdf;
+        }
+
+        p {
+            font-size: .75rem;
+        }
+
+        a {
+            width: 100%;
+            background: #de004e;
+            color: #fff;
+
+        }
+    }
+}
