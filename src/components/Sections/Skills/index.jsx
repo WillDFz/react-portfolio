@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
@@ -20,16 +21,13 @@ const Skills = () => {
                             className={`${styles.skillsSwiper}`}
                             spaceBetween={30}
                             slidesPerView={3.5}
-                            autoplay={{
-                                delay: 3000,
-                            }}
+                           
                             loop={true}
-                            modules={[Autoplay]}
                         >
                             <SwiperSlide className="text-center">
                                 <img
                                     src="svg/react.svg"
-                                    className="w-100 mb-2"
+                                    className="mb-2"
                                     alt="React"
                                 />
                                 <div>React JS</div>
@@ -38,7 +36,7 @@ const Skills = () => {
                             <SwiperSlide className="text-center">
                                 <img
                                     src="svg/js.svg"
-                                    className="w-100 mb-2"
+                                    className="mb-2"
                                     alt="Javascript"
                                 />
                                 <div>JavaScript</div>
@@ -47,7 +45,7 @@ const Skills = () => {
                             <SwiperSlide className="text-center">
                                 <img
                                     src="svg/bootstrap.svg"
-                                    className="w-100 mb-2"
+                                    className="mb-2"
                                     alt="Bootstrap"
                                 />
                                 <div>Bootstrap</div>
@@ -56,7 +54,7 @@ const Skills = () => {
                             <SwiperSlide className="text-center">
                                 <img
                                     src="svg/jquery.svg"
-                                    className="w-100 mb-2"
+                                    className="mb-2"
                                     alt="JQuery"
                                 />
                                 <div>JQuery</div>
@@ -65,7 +63,7 @@ const Skills = () => {
                             <SwiperSlide className="text-center">
                                 <img
                                     src="svg/sass.svg"
-                                    className="w-100 mb-2"
+                                    className="mb-2"
                                     alt="Sass"
                                 />
                                 <div>Sass</div>
@@ -74,7 +72,7 @@ const Skills = () => {
                             <SwiperSlide className="text-center">
                                 <img
                                     src="svg/html.svg"
-                                    className="w-100 mb-2"
+                                    className="mb-2"
                                     alt="Html"
                                 />
                                 <div>HTML</div>

@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "name": "7M Boots",
+        "url": "https://www.7mboots.com.br/",
+        "image": "/images/projects/7mboots.png" ,
+        "description": ""
+    },
+    {
+        "id": 2,
+        "name": "Andréia Carvalho Decoração",
+        "url": "https://andreiacarvalhodecor.com.br/",
+        "image": "/images/projects/andreiacarvalhodecor.png" ,
+        "description": ""
+    },
+    {
+        "id": 3,
+        "name": "Diamante Lapidado",
+        "url": "https://www.diamantelapidado.com.br/",
+        "image": "/images/projects/diamantelapidado.png" ,
+        "description": ""
+    },
+    {
+        "id": 4,
+        "name": "Emporio do Cilios",
+        "url": "https://www.emporiodoscilios.com.br/",
+        "image": "/images/projects/emporiodoscilios.png" ,
+        "description": ""
+    },
+    {
+        "id": 5,
+        "name": "Imperium das Joias",
+        "url": "https://imperiumdasjoias.com.br/",
+        "image": "/images/projects/imperiumdasjoias.png" ,
+        "description": ""
+    },
+    {
+        "id": 6,
+        "name": "Rennova",
+        "url": "https://compre.rennova.me/",
+        "image": "/images/projects/rennova.png" ,
+        "description": ""
+    },
+    {
+        "id": 7,
+        "name": "Rennova Beauté",
+        "url": "https://www.rennovabeaute.com/",
+        "image": "/images/projects/rennovabeaute.png" ,
+        "description": ""
+    },
+
+    {
+        "id": 8,
+        "name": "ZenSleep",
+        "url": "https://www.zensleep.com.br/",
+        "image": "/images/projects/zensleep.png" ,
+        "description": ""
+    }
+]

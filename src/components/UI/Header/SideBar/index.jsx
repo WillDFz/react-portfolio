@@ -14,7 +14,7 @@ function SideBar() {
     return (
         <>
             <div>
-                <Hamburger size={28} toggled={isOpen} toggle={setIsopen} />
+                <Hamburger size={28} duration={0.3} toggled={isOpen} toggle={setIsopen} />
             </div>
 
             <div

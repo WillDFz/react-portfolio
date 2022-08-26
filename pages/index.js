@@ -5,6 +5,7 @@ import Introduction from "../src/components/Sections/Introduction";
 // bootstrap css
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Skills from "../src/components/Sections/Skills";
+import Projects from "../src/components/Sections/Projects";
 
 export default function Home() {
     return (
@@ -20,6 +21,7 @@ export default function Home() {
             <Header />
             <Introduction/>
             <Skills/>
+            <Projects/>
         </>
     );
 }
