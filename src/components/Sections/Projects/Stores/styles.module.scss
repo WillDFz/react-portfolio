@@ -1,0 +1,35 @@
+.title {
+    color: #fff;
+}
+
+.item {
+    background: #ffffff12;
+    border-radius: 0.5rem;
+
+    .itemImageContainer {
+        border: 1px solid #de004e88;
+        border-radius: 0.5rem 0.5rem 0 0;
+        padding: 1rem;
+    }
+
+    .cardBody {
+        .storeName {
+            height: 2rem;
+            font-size: 0.875rem;
+            color: #fff;
+        }
+
+        .storeDescription {
+            font-size: 0.75rem;
+            color: #ccc;
+        }
+        .storeLink{
+            font-weight: 600;
+            color: #de004e;
+            img{
+                height: 1rem;
+            }
+        }
+    }
+
+}

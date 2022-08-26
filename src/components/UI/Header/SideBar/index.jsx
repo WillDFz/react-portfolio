@@ -33,7 +33,7 @@ function SideBar() {
                             </a>
                         </li>
                         <li className="ps-3 py-2">
-                            <a href="" className="btn">
+                            <a href="#Projects" className="btn">
                                 Projetos
                             </a>
                         </li>

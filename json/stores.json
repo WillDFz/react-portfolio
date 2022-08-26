@@ -1,59 +1,59 @@
 [
     {
         "id": 1,
-        "name": "7M Boots",
-        "url": "https://www.7mboots.com.br/",
-        "image": "/images/projects/7mboots.png" ,
-        "description": ""
-    },
-    {
-        "id": 2,
         "name": "Andréia Carvalho Decoração",
         "url": "https://andreiacarvalhodecor.com.br/",
         "image": "/images/projects/andreiacarvalhodecor.png" ,
-        "description": ""
+        "description": "Loja de artigos no segmento de casa e decoração.",
+        "tools": ""
     },
     {
-        "id": 3,
+        "id": 2,
         "name": "Diamante Lapidado",
         "url": "https://www.diamantelapidado.com.br/",
         "image": "/images/projects/diamantelapidado.png" ,
-        "description": ""
+        "description": "Loja de artigos no segmento de jóias.",
+        "tools": ""
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Emporio do Cilios",
         "url": "https://www.emporiodoscilios.com.br/",
         "image": "/images/projects/emporiodoscilios.png" ,
-        "description": ""
+        "description": "Loja de artigos no seguimento de extensão de cílios.",
+        "tools": ""
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "Imperium das Joias",
         "url": "https://imperiumdasjoias.com.br/",
         "image": "/images/projects/imperiumdasjoias.png" ,
-        "description": ""
+        "description": "Loja de artigos no segmento de jóias.",
+        "tools": ""
     },
     {
-        "id": 6,
+        "id": 5,
         "name": "Rennova",
         "url": "https://compre.rennova.me/",
         "image": "/images/projects/rennova.png" ,
-        "description": ""
+        "description": "Loja de artigos no segmento de saúde/beleza.",
+        "tools": ""
     },
     {
-        "id": 7,
+        "id": 6,
         "name": "Rennova Beauté",
         "url": "https://www.rennovabeaute.com/",
         "image": "/images/projects/rennovabeaute.png" ,
-        "description": ""
+        "description": "Loja de artigos no segmento de saúde/beleza.",
+        "tools": ""
     },
 
     {
-        "id": 8,
+        "id": 7,
         "name": "ZenSleep",
         "url": "https://www.zensleep.com.br/",
         "image": "/images/projects/zensleep.png" ,
-        "description": ""
+        "description": "Loja de artigos no segmento de travesseiros.",
+        "tools": ""
     }
 ]

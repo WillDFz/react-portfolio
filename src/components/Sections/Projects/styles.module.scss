@@ -1,0 +1,26 @@
+.projectSection {
+    background: #000;
+}
+
+.title {
+    color: #fff;
+
+    &::before {
+        content: "";
+        width: 25%;
+        position: relative;
+        display: block;
+        top: 1rem;
+        border-top: 1px solid #de004e;
+    }
+
+    &::after {
+        content: "";
+        width: 25%;
+        position: absolute;
+        right: 0;
+        display: block;
+        border-top: 1px solid #de004e;
+        transform: translateY(-13px);
+    }
+}

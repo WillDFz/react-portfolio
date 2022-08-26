@@ -15,8 +15,8 @@ const Skills = () => {
         <section id="Skills" className={`${styles.skillsSection}`}>
             <Container>
                 <Row>
-                    <Col>
-                        <h3 className="mb-3">Ferramentas</h3>
+                    <Col className="px-0">
+                        <h3 className="text-center mb-4">Ferramentas</h3>
                         <Swiper
                             className={`${styles.skillsSwiper}`}
                             spaceBetween={30}

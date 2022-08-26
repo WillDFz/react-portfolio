@@ -1,6 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
+import styles from "./styles.module.scss";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
@@ -17,24 +19,52 @@ const Stores = () => {
             <Container>
                 <Row>
                     <Col>
+                        <div>
+                            <h3 className={`${styles.title} mb-4`}>Lojas</h3>
+                        </div>
                         <Swiper
-                            spaceBetween={20}
+                            spaceBetween={15}
                             slidesPerView={1.5}
                             autoplay={{
-                                delay: 3000,
+                                delay: 5000,
                             }}
                             loop={true}
                             modules={[Autoplay]}
                         >
                             {stores.map((store) => (
-                                <SwiperSlide key={store.id} className="px-2">
-                                    <div>
-                                        <img src={store?.image} className="w-100" alt="" />
-                                        <div>
-                                            <h3>{store.name}</h3>
-                                            <div className="storeDescription"></div>
+                                <SwiperSlide key={store.id} className="">
+                                    <div className={`${styles.item}`}>
+                                        <div
+                                            className={`${styles.itemImageContainer}`}
+                                        >
+                                            <img
+                                                src={store?.image}
+                                                className="w-100"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div className={`${styles.cardBody} p-3`}>
+                                            <h6
+                                                className={`${styles.storeName}`}
+                                            >
+                                                {store.name}
+                                            </h6>
+                                            <div
+                                                className={`${styles.storeDescription}`}
+                                            >
+                                                <p>{store?.description}</p>
+                                            </div>
+                                            <div>{store?.tools}</div>
                                             <div className="cardFooter">
-                                                <a href={store?.url} target="_blank" rel="noopener noreferrer">Link</a>
+                                                <a
+                                                    href={store?.url}
+                                                    className={`${styles.storeLink}`}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    <img src="svg/link.svg" className="me-2" alt=""/>
+                                                    Link
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
