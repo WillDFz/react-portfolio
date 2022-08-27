@@ -38,12 +38,14 @@ const Stores = () => {
                                             className={`${styles.itemImageContainer}`}
                                         >
                                             <img
-                                                src={store?.image}
+                                                src={`images/projects/${store?.image}`}
                                                 className="w-100"
                                                 alt=""
                                             />
                                         </div>
-                                        <div className={`${styles.cardBody} p-3`}>
+                                        <div
+                                            className={`${styles.cardBody} p-3`}
+                                        >
                                             <h6
                                                 className={`${styles.storeName}`}
                                             >
@@ -54,7 +56,11 @@ const Stores = () => {
                                             >
                                                 <p>{store?.description}</p>
                                             </div>
-                                            <div>{store?.tools}</div>
+                                            <div
+                                                className={`${styles.storeTools} mb-2`}
+                                            >
+                                                {store?.tools}
+                                            </div>
                                             <div className="cardFooter">
                                                 <a
                                                     href={store?.url}
@@ -62,7 +68,11 @@ const Stores = () => {
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 >
-                                                    <img src="svg/link.svg" className="me-2" alt=""/>
+                                                    <img
+                                                        src="svg/link.svg"
+                                                        className="me-2"
+                                                        alt=""
+                                                    />
                                                     Link
                                                 </a>
                                             </div>
