@@ -1,9 +1,10 @@
 // components
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Navbar, Row } from "react-bootstrap";
 import SideBar from "./SideBar";
 
 // styles
 import styles from "./styles.module.scss";
+import NavigationBar from "./../NavBar/NavigationBar";
 
 const Header = () => {
     return (
@@ -13,8 +14,11 @@ const Header = () => {
                     <Col xs={10} className={`${styles.logo} d-flex ps-4`}>
                         <div className="my-3">【Ｗ】</div>
                     </Col>
-                    <Col xs={2} className="d-flex align-items-center">
+                    <Col xs={2} className="d-lg-none align-items-center">
                         <SideBar />
+                    </Col>
+                    <Col className="d-none d-lg-block">
+                        <NavigationBar />
                     </Col>
                     {/* <Col className="d-flex justify-content-evenly mb-2">
                         <a href="#" className="btn">

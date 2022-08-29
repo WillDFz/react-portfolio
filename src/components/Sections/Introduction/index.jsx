@@ -16,10 +16,10 @@ const Introduction = () => {
         >
             <Container>
                 <Row>
-                    <Col xs={12}>
+                    <Col xs={12} lg={3}>
                         <Avatar />
                     </Col>
-                    <Col xs={12} className="text-center mt-4">
+                    <Col xs={12} lg={4} className="text-center mt-4">
                         <div className={`${styles.titleContainer}`}>
                             <h1>Olá, eu sou Will</h1>
                             <h4>Desenvolvedor Front-End</h4>
@@ -28,7 +28,7 @@ const Introduction = () => {
                     <Col xs={12} className="mb-4">
                         <SocialLinks />
                     </Col>
-                    <Col xs={12}>
+                    <Col xs={12} lg={6}>
                         <div className={`${styles.introductionWrapper}`}>
                             <div className={`${styles.textContainer}`}>
                                 <h4>Introdução</h4>

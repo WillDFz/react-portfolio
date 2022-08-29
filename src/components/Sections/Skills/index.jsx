@@ -21,8 +21,12 @@ const Skills = () => {
                             className={`${styles.skillsSwiper}`}
                             spaceBetween={30}
                             slidesPerView={3.5}
-                           
                             loop={true}
+                            breakpoints={{
+                                1024: {
+                                    slidesPerView: 4.5,
+                                },
+                            }}
                         >
                             <SwiperSlide className="text-center">
                                 <img

@@ -11,7 +11,7 @@ import { Autoplay } from "swiper";
 import "swiper/css";
 
 // Import JSON
-import stores from "../../../../../json/stores.json";
+import stores from "../../../../json/stores.json";
 
 const Stores = () => {
     return (
@@ -30,6 +30,12 @@ const Stores = () => {
                             }}
                             loop={true}
                             modules={[Autoplay]}
+                            breakpoints={{
+                                1024: {
+                                    slidesPerView: 4,
+                                },
+                            }}
+                            observer={true}
                         >
                             {stores.map((store) => (
                                 <SwiperSlide key={store.id} className="">
