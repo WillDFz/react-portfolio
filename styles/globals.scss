@@ -6,8 +6,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: #161616;
-    transition: 1s;
+  background-color: #161616;
+  transition: 1s;
 }
 
 a {
@@ -18,9 +18,15 @@ a {
 * {
   font-family: 'Inter', sans-serif;
   box-sizing: border-box;
+
+  img,
+  svg {
+
+    user-select: none !important;
+  }
 }
 
-.btn{
+.btn {
   border: none !important;
 }
 
@@ -28,6 +34,7 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
