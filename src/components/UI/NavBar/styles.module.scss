@@ -1,0 +1,11 @@
+.navBar {
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+
+        a {
+            font-size: 0.75rem;
+        }
+    }
+}

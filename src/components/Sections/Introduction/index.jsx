@@ -12,7 +12,7 @@ const Introduction = () => {
     return (
         <section
             id="Indroduction"
-            className={`${styles.introductionSection} py-4`}
+            className={`${styles.introductionSection} pb-4 mt-5`}
         >
             <Container>
                 <Row>

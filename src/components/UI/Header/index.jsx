@@ -11,13 +11,13 @@ const Header = () => {
         <div className={styles.header}>
             <Container>
                 <Row>
-                    <Col xs={10} className={`${styles.logo} d-flex ps-4`}>
+                    <Col xs={10} lg={4} className={`${styles.logo} d-flex ps-4`}>
                         <div className="my-3">【Ｗ】</div>
                     </Col>
-                    <Col xs={2} className="d-lg-none align-items-center">
+                    <Col xs={2} className="d-lg-none d-flex align-items-center">
                         <SideBar />
                     </Col>
-                    <Col className="d-none d-lg-block">
+                    <Col className="d-none d-lg-flex justify-content-end">
                         <NavigationBar />
                     </Col>
                     {/* <Col className="d-flex justify-content-evenly mb-2">

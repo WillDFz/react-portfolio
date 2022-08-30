@@ -1,9 +1,12 @@
 import React from "react";
 
+// styles 
+import styles from "./styles.module.scss";
+
 const NavigationBar = () => {
     return (
-        <div>
-            <ul className="ps-0">
+        <div className={`${styles.navBar}`}>
+            <ul className="mb-0 ps-0">
                 <li className="ps-3 py-2">
                     <a href="#Skills" className="btn">
                         Habilidades
