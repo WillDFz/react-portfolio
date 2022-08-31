@@ -44,7 +44,7 @@ const Stores = () => {
                                             className={`${styles.itemImageContainer}`}
                                         >
                                             <img
-                                                src={`images/projects/${store?.image}`}
+                                                src={require(`images/projects/${store?.image}`)}
                                                 className="w-100"
                                                 alt=""
                                             />
