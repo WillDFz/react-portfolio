@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image'
 import { Col, Container, Row } from "react-bootstrap";
 
 import styles from "./styles.module.scss";
@@ -43,11 +44,7 @@ const Stores = () => {
                                         <div
                                             className={`${styles.itemImageContainer}`}
                                         >
-                                            <img
-                                                src={require(`images/projects/${store?.image}`)}
-                                                className="w-100"
-                                                alt=""
-                                            />
+                                            <Image  src={`/${store.image}`} width={195} height={115} />
                                         </div>
                                         <div
                                             className={`${styles.cardBody} p-3`}

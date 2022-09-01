@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Andréia Carvalho Decoração",
         "url": "https://andreiacarvalhodecor.com.br/",
-        "image": "andreiacarvalhodecor.png" ,
+        "image": "images/projects/andreiacarvalhodecor.PNG" ,
         "description": "Loja de artigos no segmento de casa e decoração.",
         "tools": "Html 5, SCSS, JavaScript, Jquery, Smarty, Nuvemshop Plataform"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "name": "Diamante Lapidado",
         "url": "https://www.diamantelapidado.com.br/",
-        "image": "diamantelapidado.png" ,
+        "image": "images/projects/diamantelapidado.PNG" ,
         "description": "Loja de artigos no segmento de jóias.",
         "tools": "Html 5, SCSS, JavaScript, Jquery, Smarty, Nuvemshop Plataform"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "name": "Emporio do Cilios",
         "url": "https://www.emporiodoscilios.com.br/",
-        "image": "emporiodoscilios.png" ,
+        "image": "images/projects/emporiodoscilios.PNG" ,
         "description": "Loja de artigos no seguimento de extensão de cílios.",
         "tools": "Html 5, SCSS, JavaScript, Jquery, Smarty, Nuvemshop Plataform"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "name": "Imperium das Joias",
         "url": "https://imperiumdasjoias.com.br/",
-        "image": "imperiumdasjoias.png" ,
+        "image": "images/projects/imperiumdasjoias.PNG" ,
         "description": "Loja de artigos no segmento de jóias.",
         "tools": "Html 5, SCSS, JavaScript, Jquery, Smarty, Nuvemshop Plataform"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "name": "Rennova",
         "url": "https://compre.rennova.me/",
-        "image": "rennova.png" ,
+        "image": "images/projects/rennova.PNG" ,
         "description": "Loja de artigos no segmento de saúde/beleza.",
         "tools": "Html 5, SCSS, JavaScript, Jquery, Smarty, Nuvemshop Plataform"
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "name": "Rennova Beauté",
         "url": "https://www.rennovabeaute.com/",
-        "image": "rennovabeaute.png" ,
+        "image": "images/projects/rennovabeaute.PNG" ,
         "description": "Loja de artigos no segmento de saúde/beleza.",
         "tools": "Html 5, SCSS, JavaScript, Jquery, Smarty, Nuvemshop Plataform"
     },
@@ -52,7 +52,7 @@
         "id": 7,
         "name": "ZenSleep",
         "url": "https://www.zensleep.com.br/",
-        "image": "zensleep.png" ,
+        "image": "images/projects/zensleep.PNG" ,
         "description": "Loja de artigos no segmento de travesseiros.",
         "tools": "Html 5, SCSS, JavaScript, Jquery, Smarty, Nuvemshop Plataform"
     }
