@@ -33,7 +33,7 @@ const Stores = () => {
                             modules={[Autoplay]}
                             breakpoints={{
                                 1024: {
-                                    slidesPerView: 3.75,
+                                    slidesPerView: 4,
                                 },
                             }}
                             observer={true}
