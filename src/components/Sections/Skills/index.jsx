@@ -15,7 +15,7 @@ const Skills = () => {
         <section id="Skills" className={`${styles.skillsSection}`}>
             <Container>
                 <Row>
-                    <Col className="px-0">
+                    <Col>
                         <h3 className="text-center mb-4">Ferramentas</h3>
                         <Swiper
                             className={`${styles.skillsSwiper}`}
