@@ -10,7 +10,7 @@ import Stores from "./Stores";
 
 const Projects = () => {
     return (
-        <section id="Projects" className={`${styles.projectSection}`}>
+        <section id="Projects" className={`${styles.projectSection} pb-4`}>
             <div>
                 <h3 className={`${styles.title} text-center pt-4`}>Projetos</h3>
             </div>

@@ -21,10 +21,14 @@ const Skills = () => {
                             className={`${styles.skillsSwiper}`}
                             spaceBetween={30}
                             slidesPerView={3.5}
+                            autoplay={{
+                                delay: 5000,
+                            }}
                             loop={true}
+                            modules={[Autoplay]}
                             breakpoints={{
                                 1024: {
-                                    slidesPerView: 4.5,
+                                    slidesPerView: 5,
                                 },
                             }}
                         >

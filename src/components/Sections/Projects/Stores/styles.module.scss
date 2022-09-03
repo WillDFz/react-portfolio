@@ -3,18 +3,29 @@
 }
 
 .item {
+    min-height: 320px;
     background: #ffffff12;
     border-radius: 0.5rem;
 
+    @media (min-width: 1200px) {
+        min-height: 350px;
+    }
+
     .itemImageContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         border: 1px solid #de004e88;
         border-radius: 0.5rem 0.5rem 0 0;
         padding: 1rem;
     }
 
     .cardBody {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
         .storeName {
-            height: 2rem;
             font-size: 0.875rem;
             color: #fff;
         }
@@ -23,16 +34,25 @@
             font-size: 0.75rem;
             color: #ccc;
         }
-        .storeTools{
+
+        .storeTools {
             font-size: 0.625rem;
             color: #ccc;
         }
-        .storeLink{
-            font-weight: 600;
-            color: #de004e;
-            img{
-                height: 1rem;
-            }
+
+    }
+
+    .cardFooter {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .storeLink {
+        font-weight: 600;
+        color: #de004e;
+
+        img {
+            height: 1rem;
         }
     }
 

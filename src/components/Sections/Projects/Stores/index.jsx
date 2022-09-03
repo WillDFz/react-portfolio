@@ -1,5 +1,5 @@
 import React from "react";
-import Image from 'next/image'
+import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 
 import styles from "./styles.module.scss";
@@ -27,13 +27,13 @@ const Stores = () => {
                             spaceBetween={15}
                             slidesPerView={1.5}
                             autoplay={{
-                                delay: 5000,
+                                delay: 3000,
                             }}
                             loop={true}
                             modules={[Autoplay]}
                             breakpoints={{
                                 1024: {
-                                    slidesPerView: 4,
+                                    slidesPerView: 3.75,
                                 },
                             }}
                             observer={true}
@@ -44,10 +44,14 @@ const Stores = () => {
                                         <div
                                             className={`${styles.itemImageContainer}`}
                                         >
-                                            <Image  src={`/${store.image}`} width={195} height={115} />
+                                            <Image
+                                                src={`/${store.image}`}
+                                                width={195}
+                                                height={115}
+                                            />
                                         </div>
                                         <div
-                                            className={`${styles.cardBody} p-3`}
+                                            className={`${styles.cardBody} p-3 pb-0`}
                                         >
                                             <h6
                                                 className={`${styles.storeName}`}
@@ -64,21 +68,21 @@ const Stores = () => {
                                             >
                                                 {store?.tools}
                                             </div>
-                                            <div className="cardFooter">
-                                                <a
-                                                    href={store?.url}
-                                                    className={`${styles.storeLink}`}
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                >
-                                                    <img
-                                                        src="svg/link.svg"
-                                                        className="me-2"
-                                                        alt=""
-                                                    />
-                                                    Link
-                                                </a>
-                                            </div>
+                                        </div>
+                                        <div className={`${styles.cardFooter} ps-3 pb-2`}>
+                                            <a
+                                                href={store?.url}
+                                                className={`${styles.storeLink}`}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                <img
+                                                    src="svg/link.svg"
+                                                    className="me-2"
+                                                    alt=""
+                                                />
+                                                Link
+                                            </a>
                                         </div>
                                     </div>
                                 </SwiperSlide>

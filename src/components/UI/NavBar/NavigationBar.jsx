@@ -17,9 +17,6 @@ const NavigationBar = () => {
                         Projetos
                     </a>
                 </li>
-                <li className="ps-3 py-2">
-                    <a className="btn">Contato</a>
-                </li>
             </ul>
         </div>
     );

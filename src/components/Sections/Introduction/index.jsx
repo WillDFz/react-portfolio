@@ -15,20 +15,19 @@ const Introduction = () => {
             className={`${styles.introductionSection} pb-4 mt-5`}
         >
             <Container>
-                <Row>
+                <Row className="justify-content-lg-center">
                     <Col xs={12} lg={3}>
                         <Avatar />
                     </Col>
-                    <Col xs={12} lg={4} className="text-center mt-4">
+                    <Col xs={12} lg={4} className="text-center d-lg-flex align-items-lg-center  mt-4">
                         <div className={`${styles.titleContainer}`}>
                             <h1>Olá, eu sou Will</h1>
                             <h4>Desenvolvedor Front-End</h4>
+                            <SocialLinks className="d-none d-lg-block mb-4" />
                         </div>
                     </Col>
-                    <Col xs={12} className="mb-4">
-                        <SocialLinks />
-                    </Col>
-                    <Col xs={12} lg={6}>
+                
+                    <Col xs={12} lg={8}>
                         <div className={`${styles.introductionWrapper}`}>
                             <div className={`${styles.textContainer}`}>
                                 <h4>Introdução</h4>

@@ -5,12 +5,12 @@ import styles from "./styles.module.scss";
 const Footer = () => {
     return (
         <section className={`${styles.footer}`}>
-            <Container fluid className="pt-5">
+            <Container fluid className="">
                 <Row>
                     <Col xs={12} className="px-0">
                         <SocialLinks />
                     </Col>
-                    <Col className="text-center py-4">
+                    <Col className="text-center pb-2">
                         <h6 className={`${styles.footNote}`}>William Dourado <span>©2022</span></h6>
                     </Col>
                 </Row>
