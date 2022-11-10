@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "name": "Ecommerce",
+        "url": "https://ecommerce-react-tailwind.vercel.app/",
+        "github": "https://github.com/WillDFz/ecommerce-react-tailwind",
+        "image": "images/projects/andreiacarvalhodecor.PNG",
+        "description": "Loja de criada para estudos das tecnologias React JS e Tailwind CSS.",
+        "tools": "React JS, SASS, Tailwind CSS, SwiperJS"
+    }
+]
