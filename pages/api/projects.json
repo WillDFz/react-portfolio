@@ -4,7 +4,7 @@
         "name": "E-commerce",
         "url": "https://ecommerce-react-tailwind.vercel.app/",
         "github": "https://github.com/WillDFz/ecommerce-react-tailwind",
-        "image": "images/projects/ecommerce.png",
+        "image": "images/projects/ecommerce.PNG",
         "description": "Loja de criada para estudos das tecnologias React JS e Tailwind CSS.",
         "tools": "React JS, SASS, Tailwind CSS, SwiperJS"
     }

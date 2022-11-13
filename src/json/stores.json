@@ -5,7 +5,7 @@
         "url": "https://andreiacarvalhodecor.com.br/",
         "image": "images/projects/andreiacarvalhodecor.PNG",
         "description": "Loja de artigos no segmento de casa e decoração.",
-        "tools": "Html 5, SCSS, JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Plataform"
+        "tools": "Html 5, SCSS, JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Platform"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "url": "https://www.diamantelapidado.com.br/",
         "image": "images/projects/diamantelapidado.PNG",
         "description": "Loja de artigos no segmento de jóias.",
-        "tools": "Html 5, SCSS, JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Plataform"
+        "tools": "Html 5, SCSS, JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Platform"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "url": "https://www.emporiodoscilios.com.br/",
         "image": "images/projects/emporiodoscilios.PNG",
         "description": "Loja de artigos no seguimento de extensão de cílios.",
-        "tools": "Html 5, SCSS, JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Plataform"
+        "tools": "Html 5, SCSS, JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Platform"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "url": "https://imperiumdasjoias.com.br/",
         "image": "images/projects/imperiumdasjoias.PNG",
         "description": "Loja de artigos no segmento de jóias.",
-        "tools": "Html 5, SCSS, JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Plataform"
+        "tools": "Html 5, SCSS, JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Platform"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "url": "https://compre.rennova.me/",
         "image": "images/projects/rennova.PNG",
         "description": "Loja de artigos no segmento de saúde/beleza.",
-        "tools": "Html 5, SCSS, JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Plataform"
+        "tools": "Html 5, SCSS, JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Platform"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "url": "https://www.rennovabeaute.com/",
         "image": "images/projects/rennovabeaute.PNG",
         "description": "Loja de artigos no segmento de saúde/beleza.",
-        "tools": "Html 5, SCSS, JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Plataform"
+        "tools": "Html 5, SCSS, JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Platform"
     },
 
     {
@@ -54,6 +54,6 @@
         "url": "https://www.zensleep.com.br/",
         "image": "images/projects/zensleep.PNG",
         "description": "Loja de artigos no segmento de travesseiros.",
-        "tools": "Html 5, SCSS, JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Plataform"
+        "tools": "Html 5, SCSS, JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Platform"
     }
 ]
