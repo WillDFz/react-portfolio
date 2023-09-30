@@ -3,48 +3,36 @@
 }
 
 .item {
-    min-height: 330px;
     background: #ffffff12;
     border-radius: 0.5rem;
 
-    .itemImageContainer {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid #de004e88;
-        border-radius: 0.5rem 0.5rem 0 0;
-        padding: 1rem;
-    }
 
     .cardBody {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
 
-        .storeName {
+        .name {
             height: 2rem;
             font-size: 0.875rem;
             color: #fff;
         }
 
-        .storeDescription {
+        .description {
+            height: 35px;
             font-size: 0.75rem;
             color: #ccc;
         }
 
-        .storeTools {
+        .tools {
+            height: 32px;
             font-size: 0.625rem;
             color: #ccc;
         }
 
     }
 
-    .cardFooter {
-        position: absolute;
-        bottom: 0;
-    }
-
-    .storeLink {
+    .link {
         font-weight: 600;
         color: #de004e;
 

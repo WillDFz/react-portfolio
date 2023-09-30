@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #161616;
+  background-color: #000 !important;
   transition: 1s;
 }
 
@@ -30,13 +30,8 @@ a {
   border: none !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+// Custo helpers
 
-  body {
-    color: white;
-    background: black;
-  }
+.custom-light-text {
+  color: #fff !important;
 }

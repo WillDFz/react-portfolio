@@ -5,6 +5,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import Avatar from "./../../UI/Avatar/index";
 import SocialLinks from "./../../SocialLinks/index";
 
+import json from "../../../json/introduction.json";
+
 // styles
 import styles from "./styles.module.scss";
 
@@ -32,13 +34,7 @@ const Introduction = () => {
                             <div className={`${styles.textContainer}`}>
                                 <h4>Introdução</h4>
                                 <p>
-                                    Trabalhando em diversas áreas da tecnologia
-                                    há alguns anos, tendo realizado atividades
-                                    no Instituto de Pesquisa Tecnológica do
-                                    Estado de São Paulo, suporte para aplicações
-                                    web, desenvolvimento de landing pages,
-                                    templates e lojas para plataformas de
-                                    e-commerce.
+                                    {json[0]?.text}
                                 </p>
                             </div>
                             <div className="text-center">
