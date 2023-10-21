@@ -11,7 +11,7 @@ const Footer = () => {
                         <SocialLinks />
                     </Col>
                     <Col className="text-center pb-2">
-                        <h6 className={`${styles.footNote}`}>William Dourado <span>©2022</span></h6>
+                        <h6 className={`${styles.footNote}`}>William Dourado <span>©2023</span></h6>
                     </Col>
                 </Row>
             </Container>
