@@ -17,26 +17,31 @@
     },
     {
         "id": "4",
+        "name": "Typescript",
+        "image": "/svg/ts.svg"
+    },
+    {
+        "id": "5",
         "name": "JQuery",
         "image": "/svg/jquery.svg"
     },
     {
-        "id": "4",
+        "id": "6",
         "name": "Bootstrap",
         "image": "/svg/bootstrap.svg"
     },
     {
-        "id": "5",
+        "id": "7",
         "name": "Tailwind",
         "image": "/svg/tailwind.svg"
     },
     {
-        "id": "6",
+        "id": "8",
         "name": "SASS",
         "image": "/svg/sass.svg"
     },
     {
-        "id": "7",
+        "id": "9",
         "name": "Github",
         "image": "/svg/github_r.svg"
     }
